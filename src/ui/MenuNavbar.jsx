@@ -60,13 +60,6 @@ function MenuNavbar() {
           >
             <FaPoll size={24} />
           </NavLink>
-          {/* <NavLink
-            to="/trends"
-            className={`p-1 rounded-lg text-yellow-400   hover:text-black  hover:bg-gray-200 transition-colors`}
-          >
-            {" "}
-            <FaArrowTrendUp size={24} />
-          </NavLink> */}
           <button
             onClick={() => setIsOpen((prev) => !prev)}
             className="p-1 rounded-lg text-yellow-400  hover:text-black  hover:bg-gray-200 transition-colors"

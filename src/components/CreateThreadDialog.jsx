@@ -49,9 +49,8 @@ function CreateThreadDialog() {
 
     try {
       // Initialize Gemini AI
-      const genAI = new GoogleGenerativeAI(
-        "AIzaSyAcZYGlmNkIUUIPaou6sRwV16to27ZRAT4"
-      );
+      const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GOOGLE_GENERATIVE_AI_KEY);
+
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
       // Generate AI response based on title and description

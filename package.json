@@ -1,8 +1,9 @@
 {
-  "name": "buzz",
+  "name": "buzz-bee",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Deepak Kumar <https://www.linkedin.com/in/deepakkumar1916>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
